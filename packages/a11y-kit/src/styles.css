@@ -1,0 +1,55 @@
+/*
+ * a11y-kit theme tokens.
+ *
+ * The components style themselves with semantic utility classes
+ * (bg-primary, text-muted-foreground, border-border, ...). Define the
+ * underlying CSS custom properties in your app by importing this file,
+ * or map the names onto your own design system.
+ *
+ * Values use oklch and meet WCAG 2.2 AA contrast on their paired surfaces.
+ */
+
+:root {
+  --radius: 0.625rem;
+  --background: oklch(0.99 0.002 95);
+  --foreground: oklch(0.21 0.02 260);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.21 0.02 260);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.21 0.02 260);
+  --primary: oklch(0.45 0.15 255);
+  --primary-foreground: oklch(0.99 0.005 255);
+  --secondary: oklch(0.94 0.01 255);
+  --secondary-foreground: oklch(0.28 0.03 255);
+  --muted: oklch(0.95 0.008 255);
+  --muted-foreground: oklch(0.42 0.02 255);
+  --accent: oklch(0.93 0.03 255);
+  --accent-foreground: oklch(0.3 0.06 255);
+  --destructive: oklch(0.5 0.19 25);
+  --destructive-foreground: oklch(0.99 0.005 25);
+  --border: oklch(0.88 0.01 255);
+  --input: oklch(0.88 0.01 255);
+  --ring: oklch(0.45 0.15 255);
+}
+
+.dark {
+  --background: oklch(0.19 0.02 260);
+  --foreground: oklch(0.95 0.01 255);
+  --card: oklch(0.23 0.02 260);
+  --card-foreground: oklch(0.95 0.01 255);
+  --popover: oklch(0.23 0.02 260);
+  --popover-foreground: oklch(0.95 0.01 255);
+  --primary: oklch(0.72 0.13 255);
+  --primary-foreground: oklch(0.19 0.02 260);
+  --secondary: oklch(0.29 0.02 260);
+  --secondary-foreground: oklch(0.95 0.01 255);
+  --muted: oklch(0.28 0.02 260);
+  --muted-foreground: oklch(0.72 0.02 255);
+  --accent: oklch(0.3 0.04 255);
+  --accent-foreground: oklch(0.95 0.01 255);
+  --destructive: oklch(0.65 0.19 25);
+  --destructive-foreground: oklch(0.99 0.005 25);
+  --border: oklch(0.32 0.02 260);
+  --input: oklch(0.32 0.02 260);
+  --ring: oklch(0.72 0.13 255);
+}
